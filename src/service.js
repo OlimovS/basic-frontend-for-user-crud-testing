@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const service = axios.create({
-  baseURL: 'http://localhost:3000',
+  baseURL: 'http://localhost:3033',
 });
 
 export default service;
